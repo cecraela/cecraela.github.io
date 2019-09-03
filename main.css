@@ -28,6 +28,7 @@ li a{
     text-decoration: none;
     color: gray;
     border: 1px solid;
+    border-color: gray;
 }
 
 a:link {
@@ -106,8 +107,4 @@ div.about {
     text-align: center;
     border-top: 1px solid;
     border-bottom: 1px solid;
-}
-
-a {
-    text-decoration: none;
 }
