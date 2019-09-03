@@ -1,7 +1,7 @@
 *
 h1 {
     padding-top: 10px;
-    font-family: Helvetica;
+    font-family: Helvetica; /*Thin Helvetica Font*/
     text-align: center;
     letter-spacing: 3px;
     font-weight: lighter;
@@ -33,23 +33,23 @@ li a{
 }
 
 a:link {
-    color: slategray;
+    color: slategray; 
     font-weight: lighter;
     padding: 20px 25px;
 }
 
 a:hover {
-    background-color: rgb(235,235,235);
+    background-color: rgb(235,235,235); /*Gray on Hover*/
     border-bottom: 5px solid;
 }
 .active {
-    background-color: rgb(100,125,150);
+    background-color: rgb(100,125,150); /*Navy Blue on Active Nav Link*/
     color: white;
     transition: 0.3s;
 }
 
 p {
-    color: black;
+    color: black; /*Black text color*/
     font-family: Helvetica;
     margin-left: 100px;
     margin-right: 100px;
