@@ -13,8 +13,6 @@ ul {
   background-color: white; 
   list-style-type: none;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 ul li {
@@ -29,6 +27,7 @@ ul li {
 li a{
     text-decoration: none;
     color: gray;
+    border: 1px solid;
 }
 
 a:link {
@@ -40,10 +39,13 @@ a:link {
 a:hover {
     background-color: rgb(235,235,235);
     transition: 0.3s;
+    border-bottom: 5px solid;
 }
 
 .active {
-    background-color: rgb(235,235,235);
+    background-color: rgb(100,125,150);
+    color: white;
+    transition: 0.3s;
 }
 
 p {
@@ -56,5 +58,56 @@ p {
     border-top: 1px solid;
 }
 
+div.gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+div.gallery2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+        font-family: Helvetica;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+        font-family: Helvetica;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+div.portfolio {
+    margin: 100px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding-bottom: 100px;
+}
+
+div.about {
+    color: black;
+    font-family: Helvetica;
+    margin: 100px;
+    font-size: 20px;
+    padding: 50px;
+    font-weight: lighter;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+a {
+    text-decoration: none;
+}
