@@ -109,6 +109,25 @@ h5 {
     font-size: 40px;
 }
 
+h6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+        font-family: Helvetica;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h7 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+        font-family: Helvetica;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 40px;
+}
 div.portfolio {
     margin: 100px;
     border-bottom: 1px solid;
