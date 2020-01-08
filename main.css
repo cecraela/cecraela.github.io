@@ -48,14 +48,17 @@ a:hover {
     transition: 0.3s;
 }
 
+body {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
 p {
     color: black; /*Black text color*/
     font-family: Helvetica;
     margin-left: 100px;
     margin-right: 100px;
     padding: 50px;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
 }
 
 div.gallery {
